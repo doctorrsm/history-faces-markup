@@ -1,0 +1,38 @@
+.section {
+  padding: 100px 0;
+}
+
+.section--light {
+  background-color: #F9F3EE;
+}
+
+.section__title {
+  text-transform: uppercase;
+  font-family: Anticva, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.section__description {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.14em;
+  color: #bd9e5e;
+  text-align: center;
+
+}
+
+.section__reviews {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}

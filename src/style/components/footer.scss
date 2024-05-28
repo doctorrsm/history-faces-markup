@@ -1,0 +1,77 @@
+footer {
+  background-color: #2E2829;
+  color: #ffffff;
+}
+
+.footer__subscribe {
+  text-align: center;
+}
+
+.footer__subscribe-title {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.footer__subscribe-sub-title {
+  color: #646057;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer__subscribe-input {
+  background-color: transparent;
+  outline:none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+}
+
+.footer__subscribe-input::placeholder {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+.footer__widgets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr))
+}
+
+.footer__widgets li {
+  list-style: none;
+}
+
+.footer__widgets h3 {
+  font-family: Anticva, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.footer__widgets a {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  padding: 5px 0;
+  color: #989389;
+}
+
+.footer__widgets a[href^="mailto:"] {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.footer__widgets a[href^="tel:"] {
+  text-decoration: underline;
+  color: #ffffff;
+}

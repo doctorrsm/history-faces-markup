@@ -1,0 +1,29 @@
+@import 'general/variables';
+@import 'general/base';
+
+
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 $padding;
+}
+
+@import 'components/btn';
+@import 'components/section';
+@import 'components/review-card';
+@import 'components/footer';
+
+
+.copyright {
+  padding: 40px 0;
+  background-color: #282425;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+}

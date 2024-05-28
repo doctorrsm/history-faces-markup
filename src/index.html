@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История в Ликах</title>
+    <link rel="stylesheet" href="./style/style.scss">
+</head>
+<body>
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__info">
+                <p>Бесплатная доставка при заказе от 5000₽</p>
+<!--                <div class="header__contacts">-->
+<!--                    <a href="tel:+79031090535">+7 903 109 05 35</a>-->
+<!--                    <a href="mailto:info@example.com">info@example.com</a>-->
+<!--                    <div class="header__social">-->
+<!--                        <a href="#"><img src="img/facebook.png" alt="Facebook"></a>-->
+<!--                        <a href="#"><img src="img/instagram.png" alt="Instagram"></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="container">
+            <div class="header__logo">
+                <img src="img/logo.svg" alt="Логотип">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#">Главная</a></li>
+                    <li class="header__item"><a href="#">Люди в футболках</a></li>
+                    <li class="header__item"><a href="#">Каталог</a></li>
+                    <li class="header__item"><a href="#">О нас</a></li>
+                    <li class="header__item"><a href="#">Доставка</a></li>
+                    <li class="header__item"><a href="#">Оплата</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <img src="img/hero.jpg" alt="Семейная фотография">
+                <h1 class="hero__title">Авторские футболки с русской исторической символикой</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__content">
+                <h2 class="about__title">"История в Ликах"</h2>
+                <p class="about__description">В русском "истории в ликах" обложены куски из живых, скоординированных событий, которые дарят радость и вдохновение. Это - особый стиль, адаптированный к сегодняшнему времени.</p>
+                <img src="img/about.jpg" alt="Описание проекта">
+                <a href="#" class="button">Подробнее о нас</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <h2 class="products__title">Каталог</h2>
+            <div class="products__categories">
+                <button class="products__category">Мужские</button>
+                <button class="products__category">Женские</button>
+                <button class="products__category">Детские</button>
+            </div>
+            <div class="products__list">
+                <div class="product-card">
+                    <img src="img/product.jpg" alt="Футболка">
+                    <h3 class="product-card__title">Х-Артистка</h3>
+                    <p class="product-card__price">1200₽</p>
+                </div>
+                <!-- Другие карточки товаров -->
+            </div>
+            <a href="#" class="button">Показать все</a>
+        </div>
+    </section>
+    <include src="components/testimonials.html"> </include>
+
+</main>
+
+<include src="components/footer.html"> </include>
+</body>
+</html>

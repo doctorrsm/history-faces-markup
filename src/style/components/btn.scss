@@ -1,0 +1,33 @@
+.btn {
+  padding: 20px 104px;
+
+  background: #bd9e5e;
+
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+
+
+.btn:hover {
+  background: #a47c3d; /* Измененный цвет фона */
+  color: #f0f0f0; /* Измененный цвет текста */
+}
+
+.btn:active {
+  background-color: #ffbf00; /* Цвет фона при нажатии */
+}
+
+.btn:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #5a01a7; /* Тень вокруг кнопки при фокусировке */
+}
